@@ -1,0 +1,30 @@
+body {
+	max-width: 100%;
+	margin: 0 auto;
+}
+header {
+	background-image:url('http://www.all-wallpapers.net/wallpapers/2012/12/Landscape-Ocean-Waves-Nature-1080x1920.jpg');
+	background-size: 100%;
+	width: 100%;
+	height: 400px;
+}
+.container {
+	max-width: 965px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	float: right;
+	display: inline;
+}
+
+li {
+	display: inline;
+	margin: 5px;
+}
+
+#logoIcon {
+	display: inline-block;
+	float: left;
+	}
