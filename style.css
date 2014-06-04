@@ -4,7 +4,7 @@ body {
 	text-decoration: none;
 }
 header {
-	background-image:url('http://www.all-wallpapers.net/wallpapers/2012/12/Landscape-Ocean-Waves-Nature-1080x1920.jpg');
+	background-image:url('http://cdn5.triplepundit.com/wp-content/uploads/2012/04/waves-460x250.jpg');
 	background-size: 100%;
 	background-color: rgba(47, 194, 231, 0.54);
 	background-blend-mode: multiply;
@@ -62,6 +62,7 @@ h4 {
 a {
 	text-decoration: none;
 	color: black;
+	font-family: "muli"
 }
 
 #mainBody-left {
@@ -109,28 +110,61 @@ h3 {
 	position: relative;
 	top: 50px;
 }
-#sidebar-right h4 {
+aside h4 {
 	top: 55px;
 	color: #2980b9;
 }
-#sidebar-right a {
+aside a {
 	display: block;
 	float: left;
+
 }
 #kayaksImage {
 	position: relative;
-	top: 100px;
-	left: 10px;
+	top: 75px;
+	left: 230px;
 	margin: 0 auto;
 	height: 200px;
 	width: 250px;
-		background-color: rgba(47, 194, 231, 0.54);
-	background-blend-mode: multiply;
 }
 #section h4 {
 	top: 150px;
 	right: 60px;
 }
+#aside-container {
+	width: 50%;
+	float: left;
+	height: 676px;
+}
+#socialLinks-container {
+	width: 50%;
+	height: 50px;
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+}
+#socialLinks-container a{
+	margin: 5px;
+	position: relative;
+	left: 70px;
+}
+#rightSideBarSection p{
+	position: relative;
+	top: 155px;
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 0;
+}
+#rightSideBarSection h4{
+	top: 150px;
+	color: #2980b9;
+	font-size: 16px;
+	right: 10px;
+}
+
+
+
+
 
 
 
