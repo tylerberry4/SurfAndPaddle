@@ -1,0 +1,77 @@
+* {
+	float: none;
+}
+
+.container {
+	max-width: 100%;
+}
+
+#logoIcon {
+	display: none;
+}
+
+ul {
+	right: 77px;
+} 
+
+h1 {
+	font-size: 28px;
+	position: relative;
+	bottom: 25px;
+}
+
+header {
+	height: 200px;
+}
+
+#subMainTitle {
+    top: -28px;
+}
+
+#mainBody-left {
+	max-width: 100%;
+}
+
+#rightH2 {
+	max-width: 69%;
+	margin: 20px 20px 0 20px;
+}
+
+#mainBody-left p {
+    max-width: 100%;
+}
+
+#deletedText {
+	display: none;
+}
+
+h5 {
+    margin-top: 2px;
+    padding-left: 22px;
+    color: grey;
+    text-decoration: underline;
+}
+
+aside {
+	max-width: 100%;
+}
+
+article {
+	padding: 1px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
