@@ -3,7 +3,7 @@ body {
 	margin: 0 auto;
 	text-decoration: none;
 }
-
+									/*header*/
 header {
 	background-image:url('http://cdn5.triplepundit.com/wp-content/uploads/2012/04/waves-460x250.jpg');
 	background-size: cover;
@@ -234,7 +234,7 @@ nav p{
 #navLinks a{
 	color: grey;
 	position: relative;
-	left: 38%;
+	left: 30%;
 	border-style: solid;
 	border-width: 0 1px 0 0;
 	padding: 0 3px 0 3px;

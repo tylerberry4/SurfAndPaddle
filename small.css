@@ -11,21 +11,24 @@
 }
 
 ul {
-	right: 77px;
+	right: 99px;
+	font-size: 12px;
+	bottom: 7px;
 } 
 
 h1 {
-	font-size: 28px;
+	font-size: 24px;
 	position: relative;
-	bottom: 25px;
+	bottom: 55px;
 }
 
 header {
-	height: 200px;
+	height: 155px;
 }
 
 #subMainTitle {
-    top: -28px;
+    top: -60px;
+    font-family: sans-serif;
 }
 
 #mainBody-left {
@@ -35,6 +38,7 @@ header {
 #rightH2 {
 	max-width: 69%;
 	margin: 20px 20px 0 20px;
+	color: #2c3e50;
 }
 
 #mainBody-left p {
@@ -53,16 +57,64 @@ h5 {
 }
 
 aside {
-	max-width: 100%;
+	width: 100%;
+	height: 540px;
 }
 
 article {
 	padding: 1px 20px;
 }
 
+#shareLinks {
+	margin-left: 16px;
+}
 
+#dolphinMedium, #annie {
+	left: 0;
+	font-size: 20px;
+	color: #2980B9;
+}
 
+#dolphinMedium {
+	width: 100px;
+	height: 100px;
+}
 
+#socialLinks-container {
+	width: 100%;
+	right: 16px;
+}
+
+#socialLinks-container a{
+	color: grey;
+}
+
+#kayaksImage {
+	left: 40px;
+}
+
+#rightSideBarSection {
+	display: none;
+}
+
+#postsTitle {
+	font-size: 29px;
+}
+
+#navLinks {
+    position: relative;
+    top: -21%;
+    right: 72px;
+}
+
+nav {
+	height: 200px
+}
+
+nav p {
+	top: 120px;
+  left: 0;
+}
 
 
 
