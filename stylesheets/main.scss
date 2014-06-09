@@ -1,0 +1,374 @@
+// @import "responsive.scss";
+
+body {
+	max-width: 100%;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+/*header*/
+header {
+	background-image:url('http://cdn5.triplepundit.com/wp-content/uploads/2012/04/waves-460x250.jpg');
+	background-size: cover;
+	background-color: rgba(47, 194, 231, 0.54);
+	background-blend-mode: multiply;
+	height: 400px;
+	border-top: 0;
+	width: 100%;
+}
+.container {
+	max-width: 965px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	float: right;
+	display: inline;
+	font-family: "Oswald";
+	position: relative;
+	right: 150px;
+}
+
+li {
+	display: inline;
+	margin: 5px;
+}
+
+#logoIcon {
+	display: inline-block;
+	float: left;
+	position: relative;
+	left: 150px;
+	font-family: "muli";
+	text-decoration: none;
+	padding: 15px;
+	color: black;
+	font-size: 15px;
+}
+h1 {
+	font-family: "Muli";
+	color: white;
+	font-size: 75px;
+	text-align: center;
+	margin: 0;
+	padding-top: 150px;
+}
+
+h4 {
+	font-family: "Oswald";
+	font-size: 10px;
+	text-align: center;
+	position: relative;
+}
+
+#subMainTitle {
+	margin: 0;
+	top: -15px;
+}
+
+#annie {
+	margin: 0 auto;
+	top: 50px;
+	position: relative;
+	left: 55px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: "muli"
+}
+
+#mainBody-left {
+	float: left;
+	max-width: 50%;
+}
+
+#mainBody-left p{
+	width: 600px;
+}
+h2 {
+	font-family: "oswald";
+	font-size: 35px;
+}
+
+#rightH2 {
+	margin: 10px;
+}
+
+#dolphinSmall {
+	width: 35px;
+	height: 35px;
+	border-radius: 150em;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+h3 {
+	font-family: "muli"
+}
+
+#articleQuote {
+	font-family: "muli";
+	color: #2980b9;
+	margin: 40px 0 40px 15px;
+	border-width: 2px;
+	border-left-style: solid;
+	border-left-color: lightgrey;
+	padding-left: 10px;
+}
+
+#mainBody-left a {
+	margin: 5px;
+	padding: 5px;
+	background-color: grey;
+}
+#dolphinMedium {
+	width: 60px;
+	height: 60px;
+	border-radius: 150em;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	left: 56px;
+}
+aside {
+	width: 50%;
+	float: left;
+	height: 676px;
+}
+
+aside a {
+	display: block;
+	float: left;
+
+}
+#kayaksImage {
+	position: relative;
+	top: 75px;
+	left: 185px;
+	margin: 0 auto;
+	height: 200px;
+	width: 250px;
+}
+#section h4 {
+	top: 150px;
+	right: 60px;
+}
+#socialLinks-container {
+	width: 50%;
+	height: 50px;
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+}
+#socialLinks-container a{
+	margin: 5px;
+	position: relative;
+	left: 70px;
+}
+#rightSideBarSection p{
+	position: relative;
+	top: 110px;
+	width: 59%;
+	margin-left: 39%;
+	margin-top: 0;
+}
+#rightSideBarSection h4{
+	top: 110px;
+	color: #2980b9;
+	font-size: 16px;
+	right: -42px;
+	margin: 0;
+
+}
+#postsTitle	{
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 50px;
+}
+#bottomImages {
+	height: 340px;
+	width: 100%;
+	float: left;
+}
+#bottomImages img{
+	width: 25%;
+	height:340px;
+	float: left;
+}
+nav {
+	width: 100%;
+	height: 100px;
+	float: left;
+	background-color: #34495e;
+}
+
+nav img {
+	height: 2em;
+	width: 2em;
+	position: relative;
+	top: 9px;
+}
+
+img {
+	background-color: blue;
+	opacity: .6;
+
+}
+nav p{
+	margin: 0 auto;
+	float: left;
+	position: relative;
+	top: 22px;
+	left: 135px;
+	color: grey;
+}
+#navLinks {
+	position: relative;
+	top: 40%;
+}
+
+#navLinks a{
+	color: grey;
+	position: relative;
+	left: 30%;
+	border-style: solid;
+	border-width: 0 1px 0 0;
+	padding: 0 3px 0 3px;
+}
+
+ #navBorderNone {
+	border-color: #34495e;
+}
+
+
+
+
+// Begin 320px Media Query
+
+@media screen and (max-width: 320px) {
+
+* {
+	float: none;
+}
+
+.container {
+	max-width: 100%;
+}
+
+#logoIcon {
+	display: none;
+}
+
+ul {
+	right: 99px;
+	font-size: 12px;
+	bottom: 7px;
+}
+
+h1 {
+	font-size: 24px;
+	position: relative;
+	bottom: 55px;
+}
+
+header {
+	height: 155px;
+}
+
+#subMainTitle {
+		top: -60px;
+		font-family: sans-serif;
+}
+
+#mainBody-left {
+	max-width: 100%;
+}
+
+#rightH2 {
+	max-width: 69%;
+	margin: 20px 20px 0 20px;
+	color: #2c3e50;
+}
+
+#mainBody-left p {
+		max-width: 100%;
+}
+
+#deletedText {
+	display: none;
+}
+
+h5 {
+		margin-top: 2px;
+		padding-left: 22px;
+		color: grey;
+		text-decoration: underline;
+}
+
+aside {
+	width: 100%;
+	height: 540px;
+}
+
+article {
+	padding: 1px 20px;
+}
+
+#shareLinks {
+	margin-left: 16px;
+}
+
+#dolphinMedium, #annie {
+	left: 0;
+	font-size: 20px;
+	color: #2980B9;
+}
+
+#dolphinMedium {
+	width: 100px;
+	height: 100px;
+}
+
+#socialLinks-container {
+	width: 100%;
+	right: 33px;
+}
+
+#socialLinks-container a{
+	color: grey;
+}
+
+#kayaksImage {
+	left: 21px;
+}
+
+#rightSideBarSection {
+	display: none;
+}
+
+#postsTitle {
+	font-size: 29px;
+}
+
+#navLinks {
+		position: relative;
+		top: -21%;
+		right: 80px;
+}
+
+nav {
+	height: 200px
+}
+
+nav p {
+	top: 120px;
+	left: 0;
+}
+}
