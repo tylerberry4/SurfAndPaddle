@@ -15,9 +15,9 @@ header {
 
 header img {
   position: relative;
-  left: 9%;
-  height: 50px;
-  bottom: 65%; }
+  bottom: 261px;
+  left: 111px;
+  height: 50px; }
 
 .container {
   max-width: 965px;
@@ -29,7 +29,8 @@ ul {
   display: inline;
   font-family: "Oswald";
   position: relative;
-  right: 150px; }
+  right: 150px;
+  bottom: 8px; }
 
 li {
   display: inline;
@@ -66,8 +67,8 @@ h4 {
 
 #annie {
   margin: 0 auto;
-  top: 50px;
   position: relative;
+  top: 50px;
   left: 55px;
   color: #2980b9; }
 
@@ -93,7 +94,14 @@ h2 {
 #dolphinSmall {
   width: 35px;
   height: 35px;
-  border-radius: 150em; }
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px; }
 
 p {
   font-family: sans-serif; }
@@ -166,10 +174,11 @@ aside a {
   margin-top: 0; }
 
 #rightSideBarSection h4 {
+  position: relative;
   top: 110px;
+  right: -42px;
   color: #2980b9;
   font-size: 16px;
-  right: -42px;
   margin: 0; }
 
 #postsTitle {
@@ -208,14 +217,11 @@ nav p {
   left: 135px;
   color: grey; }
 
-#navLinks {
-  position: relative;
-  top: 40%; }
-
 #navLinks a {
   color: grey;
   position: relative;
-  left: 30%;
+  top: 40px;
+  left: 380px;
   border-style: solid;
   border-width: 0 1px 0 0;
   padding: 0 3px 0 3px; }
@@ -317,7 +323,10 @@ nav p {
   #navLinks {
     position: relative;
     top: -21%;
-    right: 80px; }
+    width: 100%; }
+
+  #navLinks a {
+    position: static; }
 
   nav {
     height: 200px; }
@@ -327,7 +336,8 @@ nav p {
     left: 0; }
 
   header img {
-    left: 41%;
+    position: relative;
+    bottom: 157px;
+    left: 126px;
     height: 53px;
-    bottom: 100%;
     opacity: .8; } }

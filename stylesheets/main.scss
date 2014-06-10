@@ -1,3 +1,5 @@
+@import 'bourbon/bourbon.scss';
+
 // Sass variables
 $blue-font: #2980B9;
 $primary-font: "muli";
@@ -22,10 +24,8 @@ header {
 }
 
 header img {
-  position: relative;
-  left: 9%;
+	@include position(relative, null null 261px 111px);
   height: 50px;
-  bottom: 65%;
 }
 
 .container {
@@ -38,8 +38,7 @@ ul {
 	float: right;
 	display: inline;
 	font-family: $secondary-font;
-	position: relative;
-	right: 150px;
+	@include position(relative, null 150px 8px null);
 }
 
 li {
@@ -50,8 +49,7 @@ li {
 #logoIcon {
 	display: inline-block;
 	float: left;
-	position: relative;
-	left: 150px;
+	@include position(relative, null null null 150px);
 	font-family: $primary-font;
 	text-decoration: none;
 	padding: 15px;
@@ -81,9 +79,10 @@ h4 {
 
 #annie {
 	margin: 0 auto;
-	top: 50px;
-	position: relative;
-	left: 55px;
+	@include position(relative, 50px null null 55px);
+	// position: relative;
+	// top: 50px;
+	// left: 55px;
 	color:	$blue-font;
 }
 
@@ -114,7 +113,10 @@ h2 {
 #dolphinSmall {
 	width: 35px;
 	height: 35px;
-	border-radius: 150em;
+	@include border-top-radius(100px);
+	@include border-bottom-radius(100px);
+	@include border-left-radius(100px);
+	@include border-right-radius(100px);
 }
 
 p {
@@ -146,10 +148,9 @@ h3 {
 	border-radius: 150em;
 	display: block;
 	margin: 0 auto;
-	position: relative;
-	top: 50px;
-	left: 56px;
+	@include position(relative, 50px null null 56px);
 }
+
 aside {
 	width: 50%;
 	float: left;
@@ -162,29 +163,29 @@ aside a {
 
 }
 #kayaksImage {
-	position: relative;
-	top: 75px;
-	left: 185px;
+	@include position(relative, 75px null null 185px);
 	margin: 0 auto;
 	height: 200px;
 	width: 250px;
 }
+
 #section h4 {
 	top: 150px;
 	right: 60px;
 }
+
 #socialLinks-container {
 	width: 50%;
 	height: 50px;
-	position: relative;
-	top: 50px;
+	@include position(relative, 50px null null null);
 	margin: 0 auto;
 }
+
 #socialLinks-container a{
 	margin: 5px;
-	position: relative;
-	left: 70px;
+	@include position(relative, null null null 70px);
 }
+
 #rightSideBarSection p{
 	position: relative;
 	top: 110px;
@@ -192,30 +193,33 @@ aside a {
 	margin-left: 39%;
 	margin-top: 0;
 }
+
 #rightSideBarSection h4{
-	top: 110px;
+	@include position(relative, 110px -42px null null);
 	color: #2980b9;
 	font-size: 16px;
-	right: -42px;
 	margin: 0;
-
 }
+
 #postsTitle	{
 	width: 100%;
 	float: left;
 	text-align: center;
 	font-size: 50px;
 }
+
 #bottomImages {
 	height: 340px;
 	width: 100%;
 	float: left;
 }
+
 #bottomImages img{
 	width: 25%;
 	height:340px;
 	float: left;
 }
+
 nav {
 	width: 100%;
 	height: 100px;
@@ -226,27 +230,19 @@ nav {
 nav img {
 	height: 2em;
 	width: 2em;
-	position: relative;
-	top: 9px;
+	@include position(relative, 9px null null null);
 }
 
 nav p{
 	margin: 0 auto;
 	float: left;
-	position: relative;
-	top: 22px;
-	left: 135px;
+	@include position(relative, 22px null null 135px);
 	color: grey;
-}
-#navLinks {
-	position: relative;
-	top: 40%;
 }
 
 #navLinks a{
 	color: grey;
-	position: relative;
-	left: 30%;
+	@include position(relative, 40px null null 380px);
 	border-style: solid;
 	border-width: 0 1px 0 0;
 	padding: 0 3px 0 3px;
@@ -258,8 +254,9 @@ nav p{
 
 
 
-
 // Begin 320px Media Query
+
+
 
 @media screen and (max-width: 320px) {
 
@@ -283,8 +280,7 @@ ul {
 
 h1 {
 	font-size: 24px;
-	position: relative;
-	bottom: 55px;
+	@include position(relative, null null 55px null);
 }
 
 header {
@@ -372,19 +368,22 @@ article {
 }
 
 #bottomImages img{
-    width: 80%;
-    height: 240px;
-    margin: 30px;
+  width: 80%;
+  height: 240px;
+  margin: 30px;
 }
 
 #navLinks {
-		position: relative;
-		top: -21%;
-		right: 80px;
+	@include position(relative, -21% null null null);
+	width: 100%
+	}
+
+#navLinks a {
+	position: static;
 }
 
 nav {
-	height: 200px
+	height: 200px;
 }
 
 nav p {
@@ -393,9 +392,8 @@ nav p {
 }
 
 header img {
-  left: 41%;
+	@include position(relative, null null 157px 126px);
   height: 53px;
-  bottom: 100%;
   opacity: .8;
 }
 }
